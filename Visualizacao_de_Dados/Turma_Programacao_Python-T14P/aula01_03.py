@@ -13,7 +13,7 @@ y3 = 4 * x
 
 # É possível dividir uma imagem em mais gráficos, basta considerar a imagem como uma matriz de gráficos
 # Passamos para a função plt.subplots o número de linhas e o número de colunas dessa matriz
-fig, ax = plt.subplots(1, 3, sharey=True)
+fig, ax = plt.subplots(1, 3)
 
 # Depois para plotar em cada local individualmente acessamos a variável ax como uma lista
 ax[0].plot(x, y1, color='green', label='2 * x**2')

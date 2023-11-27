@@ -9,7 +9,7 @@ x2 = [0, 4, 1, 9]
 plt.plot(x1)
 
 # Se você quiser que ele plote apenas os pontos (sem interligá-los) faça como o comando abaixo
-plt.plot(x2, 'o')
+plt.plot(x2, '*')
 
 # Configurações para dar nomes aos eixos e ao gráfico
 plt.xlabel("Nome do eixo X")
